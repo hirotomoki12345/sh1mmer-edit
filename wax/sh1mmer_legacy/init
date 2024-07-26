@@ -1,6 +1,6 @@
 #!/bootstrap/busybox sh
 
-set -eE
+# set -eE
 
 sudo mkdir /mnt/a
 sudo mount /dev/mmcblk0p5 /mnt/a
