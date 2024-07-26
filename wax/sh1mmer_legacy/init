@@ -2,6 +2,11 @@
 
 set -eE
 
+sudo mkdir /mnt/a
+sudo mount /dev/mmcblk0p5 /mnt/a
+sudo mkdir /mnt/a/a
+sudo umount /mnt/a
+
 STATEFUL_MNT="$1"
 
 fail() {
